@@ -1,0 +1,38 @@
+// ! Main Colors Variants
+$main: var(--main);
+$main-50: var(--main-50);
+$main-75: var(--main-75);
+
+// ? Secondary Colors Variants
+$secondary: var(--secondary);
+$secondary-50: var(--secondary-50);
+$secondary-75: var(--secondary-75);
+
+// * Others Colors Variants
+$pink: #d13063;
+$navy: #0c5fa7;
+$blue: #4ec2f0;
+
+.light-mode {
+  // ! Main Colors Variants
+  --main: #efede9;
+  --main-50: rgba(239, 237, 233, 0.5);
+  --main-75: rgba(239, 237, 233, 0.75);
+
+  // ? Secondary Colors Variants
+  --secondary: #1d1b1b;
+  --secondary-50: rgba(29, 27, 27, 0.5);
+  --secondary-75: rgba(29, 27, 27, 0.75);
+}
+
+.dark-mode {
+  // ! Main Colors Variants
+  --main: #1d1b1b;
+  --main-50: rgba(29, 27, 27, 0.5);
+  --main-75: rgba(29, 27, 27, 0.75);
+
+  // ? Secondary Colors Variants
+  --secondary: #efede9;
+  --secondary-50: rgba(239, 237, 233, 0.5);
+  --secondary-75: rgba(239, 237, 233, 0.75);
+}
