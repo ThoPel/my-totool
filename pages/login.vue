@@ -7,11 +7,11 @@
       <label for="password">mot de passe</label>
       <input type="password" name="password" />
       <span class="btn">se connecter</span>
-      <nuxt-link to="/">mot de passe oublié</nuxt-link>
+      <nuxt-link to="/password">mot de passe oublié</nuxt-link>
     </form>
   </main>
 </template>
 
 <style lang="scss" scoped>
-    
+
 </style>

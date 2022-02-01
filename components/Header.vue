@@ -1,6 +1,7 @@
 <template>
     <header>
-        <nuxt-link to="/signin">S'inscrire</nuxt-link>
+        <nuxt-link v-if="this.$route.name == 'login'" to="/signin">S'inscrire</nuxt-link>
+        <nuxt-link v-else-if="this.$route.name == 'signin' || this.$route.name == 'password'" to="/login">Retour</nuxt-link>
     </header>
 </template>
 
