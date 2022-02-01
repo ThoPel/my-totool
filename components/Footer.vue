@@ -8,6 +8,8 @@
 footer{
     font-size: 1rem;
     width: 100%;
+    height: 5vw;
+    @include flexbox(row, center, center);
 
     p{
         text-align: center;

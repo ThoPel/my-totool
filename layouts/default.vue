@@ -42,13 +42,34 @@ li {
 }
 
 main {
-  height: calc(100vh - $fs-m * 2 - 2.361vw * 2);
+  min-height: calc(100vh - 5vw - 7.5vw);
+  margin-top: 7.5vw;
   width: 100vw;
   @include flexbox(column, flex-start, center, 15vh);
 }
 
 h1 {
   @include font($fs-xxl, $Kinetic-Bold, null, 1);
+  width: 100%;
+  text-align: center;
+}
+
+p.subtitle {
+  width: 100%;
+  text-align: center;
+  @include font($fs-xl, $Kinetic-Bold, null, 1);
+}
+
+.add-1 {
+  padding: 0.7vw 1vw;
+  background-color: $secondary;
+  color: $main;
+  border-radius: 5px;
+  @include font($fs-l, $Kinetic-Regular, null, 1);
+  @include flexbox(column, center, center);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
 }
 
 form {

@@ -23,7 +23,7 @@
           <span style="background: #C20000;"></span>
           <span style="background: #B5E156;"></span>
       </div>
-      <span class="btn">s'inscrire</span>
+      <span class="btn">S'inscrire</span>
     </form>
   </main>
 </template>
