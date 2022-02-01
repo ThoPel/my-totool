@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nuxt-link to="/">S'inscrire</nuxt-link>
+        <nuxt-link to="/signin">S'inscrire</nuxt-link>
     </header>
 </template>
 

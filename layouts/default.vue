@@ -47,7 +47,7 @@ main {
   @include flexbox(column, flex-start, center, 15vh);
 }
 
-h1{
+h1 {
   @include font($fs-xxl, $Kinetic-Bold, null, 1);
 }
 
@@ -62,12 +62,12 @@ form {
     border: 1px solid $secondary;
     padding: 0.6vw;
     outline: none;
-    @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+    @include font($fs-l, $Kinetic-Regular, lowercase, 1);
   }
 
   label {
     width: 100%;
-    @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+    @include font($fs-l, $Kinetic-Bold, null, 1);
     margin-bottom: 0.347vw;
   }
 
@@ -80,6 +80,11 @@ form {
     padding: 0.6vw;
     margin-bottom: 1.389vw;
     @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+    cursor: pointer;
+  }
+
+  .colors {
+    margin-bottom: 1.389vw;
   }
 
   a {
