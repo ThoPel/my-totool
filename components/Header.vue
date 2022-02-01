@@ -16,7 +16,7 @@
     <div v-else></div>
 
     <nuxt-link
-      v-if="this.$route.name == 'index' || this.$route.name == 'dashboard'"
+      v-if="this.$route.name == 'projet' || this.$route.name == 'dashboard'"
       to="/login"
       ><img src="~/assets/medias/logout.svg" alt="Se déconnecter"
     /></nuxt-link>
