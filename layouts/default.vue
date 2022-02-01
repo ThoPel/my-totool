@@ -1,5 +1,9 @@
 <template>
-  <Nuxt />
+  <div>
+    <Header />
+    <Nuxt />
+    <Footer />
+  </div>
 </template>
 
 <style lang="scss">
@@ -13,7 +17,10 @@
 
 html {
   font-size: $fs-html;
+  font-family: $Kinetic-Regular;
   height: -webkit-fill-available;
+  color: $secondary;
+  background-color: $main;
 }
 
 body {
@@ -26,7 +33,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $secondary;
+  color: inherit;
 }
 
 ul,
@@ -34,12 +41,60 @@ li {
   list-style: none;
 }
 
+main {
+  height: calc(100vh - $fs-m * 2 - 2.361vw * 2);
+  width: 100vw;
+  @include flexbox(column, flex-start, center, 15vh);
+}
+
+h1{
+  @include font($fs-xxl, $Kinetic-Bold, null, 1);
+}
+
+form {
+  @include flexbox(column, flex-start, flex-start);
+  width: 15vw;
+
+  input {
+    width: 100%;
+    margin-bottom: 1.389vw;
+    border-radius: 5px;
+    border: 1px solid $secondary;
+    padding: 0.6vw;
+    outline: none;
+    @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+  }
+
+  label {
+    width: 100%;
+    @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+    margin-bottom: 0.347vw;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: $secondary;
+    color: $main;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.6vw;
+    margin-bottom: 1.389vw;
+    @include font($fs-l, $Kinetic-Bold, lowercase, 1);
+  }
+
+  a {
+    width: 100%;
+    text-align: center;
+    @include font($fs-m, $Kinetic-Light, lowercase, 1);
+  }
+}
+
 header,
 nav,
 section,
 main,
 article {
-  padding: 0 6.4rem;
+  padding: 0 2.361vw;
 
   @include tablet {
     padding: 0 2.4rem;

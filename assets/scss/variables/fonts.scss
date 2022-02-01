@@ -1,25 +1,32 @@
 // ? Nexa Font Face
-// $Nexa-Book: "Nexa-Book", sans-serif;
-// @include font-face(Nexa-Book, "./assets/fonts/Nexa-Book");
+$Kinetic-Black: "Kinetic-Black", sans-serif;
+@include font-face(Kinetic-Black, "./assets/fonts/KineticBlack");
 
+$Kinetic-BlackItalic: "Kinetic-BlackItalic", sans-serif;
+@include font-face(Kinetic-BlackItalic, "./assets/fonts/KineticBlackItalic");
+
+$Kinetic-Bold: "Kinetic-Bold", sans-serif;
+@include font-face(Kinetic-Bold, "./assets/fonts/KineticBold");
+
+$Kinetic-BoldItalic: "Kinetic-BoldItalic", sans-serif;
+@include font-face(Kinetic-BoldItalic, "./assets/fonts/KineticBoldItalic");
+
+$Kinetic-Light: "Kinetic-Light", sans-serif;
+@include font-face(Kinetic-Light, "./assets/fonts/KineticLight");
+
+$Kinetic-LightItalic: "Kinetic-LightItalic", sans-serif;
+@include font-face(Kinetic-LightItalic, "./assets/fonts/KineticLightItalic");
+
+$Kinetic-Regular: "Kinetic-Regular", sans-serif;
+@include font-face(Kinetic-Regular, "./assets/fonts/KineticRegular");
+
+$Kinetic-RegularItalic: "Kinetic-RegularItalic", sans-serif;
+@include font-face(Kinetic-RegularItalic, "./assets/fonts/KineticRegularItalic");
 
 // ! Font Size Desktop
-$fs-html: 10px;
+$fs-html: 0.972vw;
 
-$fs-d-h1: 13rem;
-$fs-d-h2: 3.5rem;
-$fs-d-h3: 2.25rem;
-$fs-d-p: 1.8rem;
-$fs-d-ps: 1.6rem;
-$fs-d-menu: 1.6rem;
-$fs-d-icon: 5rem;
+$fs-m: 1rem;
+$fs-l: 1.2rem;
 
-$fs-t-h1: 13rem;
-$fs-t-h2: 3.5rem;
-$fs-t-h3: 2.25rem;
-
-$fs-m-h1: 15rem;
-$fs-t-h2: 3.5rem;
-$fs-t-h3: 2.25rem;
-$fs-m-p: 1.8rem;
-$fs-m-ps: 1.4rem;
+$fs-xxl: 4rem;
