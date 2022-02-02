@@ -2,7 +2,7 @@
   <div>
     <Header />
     <Nuxt />
-    <Footer />
+    <Footer v-if="this.$route.name !== 'projet'" />
   </div>
 </template>
 
@@ -43,9 +43,9 @@ li {
 
 main {
   min-height: calc(100vh - 5vw - 7.5vw);
-  margin-top: 7.5vw;
+  margin-top: 4vw;
   width: 100vw;
-  @include flexbox(column, flex-start, center, 15vh);
+  @include flexbox(column, flex-start, center, 12vh);
 }
 
 h1 {

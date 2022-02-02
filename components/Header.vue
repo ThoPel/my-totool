@@ -29,7 +29,9 @@ header {
   font-size: 1rem;
   width: 100%;
   padding: 2.361vw;
+  padding-bottom: 0;
   font-family: $Kinetic-Bold;
+  background-color: $main;
   @include flexbox(row, space-between, center);
   position: fixed;
   top: 0;

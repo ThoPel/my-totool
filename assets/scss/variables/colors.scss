@@ -1,8 +1,11 @@
 // ! Main Colors Variants
 $main: var(--main);
+$main-50: var(--main-50);
+$main-filter: var(--main-filter);
 
 // ? Secondary Colors Variants
 $secondary: var(--secondary);
+$secondary-filter: var(--secondary-filter);
 
 // * Others Colors Variants
 $grey: #EAEAEA;
@@ -11,15 +14,21 @@ $dark-grey: #8F8F8F;
 .light-mode {
   // ! Main Colors Variants
   --main: #404040;
+  --main-50: #4040409a;
+  --main-filter: invert(14%) sepia(0%) saturate(4832%) hue-rotate(316deg) brightness(93%) contrast(68%);
 
   // ? Secondary Colors Variants
   --secondary: #F6F6F6;
+  --secondary-filter: invert(100%) sepia(0%) saturate(1485%) hue-rotate(353deg) brightness(121%) contrast(84%);
 }
 
 .dark-mode {
   // ! Main Colors Variants
   --main: #F6F6F6;
+  --main-50: #f6f6f69a;
+  --main-filter: invert(100%) sepia(0%) saturate(1485%) hue-rotate(353deg) brightness(121%) contrast(84%);
 
   // ? Secondary Colors Variants
   --secondary: #404040;
+  --secondary-filter: invert(14%) sepia(0%) saturate(4832%) hue-rotate(316deg) brightness(93%) contrast(68%);
 }
